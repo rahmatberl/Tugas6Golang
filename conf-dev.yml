@@ -1,0 +1,14 @@
+#port where service shall LISTEN for connection
+listenPort: :9000
+rootUrl: /getOrder
+rootUrlCustomer: /getCustomer
+rootUrlProduct: /getProduct
+rootUrlData: /getData
+connection:
+    user: root
+    port: 3306
+    host: localhost
+    password: 
+    database: northwind
+
+
